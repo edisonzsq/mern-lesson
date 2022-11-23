@@ -1,4 +1,5 @@
 
+# Mongoose Lesson 
 
 ## Database Setup
 
@@ -17,3 +18,7 @@ npm start
 ```
 
 > This application will exit after execution.
+
+## Code Challenge
+
+The codebase has `insert` and `find` operations. Implement the `update` and `delete`. 
