@@ -16,3 +16,5 @@ const comedianSchema = new Schema(
 const Comedian = mongoose.model("Comedian", comedianSchema);
 
 module.exports = Comedian;
+
+// "Comedian" => "comedians"
