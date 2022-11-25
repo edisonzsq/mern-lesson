@@ -1,5 +1,5 @@
 
-# Mongoose Lesson 
+# Project Setup 
 
 ## Database Setup
 
@@ -18,6 +18,17 @@ npm start
 ```
 
 > This application will exit after execution.
+
+## Schedule for Remaining Lessons
+
+|Date|Topic|
+|-|-|
+|24 Nov (Thu) |Create and Read API|
+|26 Nov (Sat) |Update and Delete API, Work on plants API homework with students|
+|29 Nov (Tue) |Explore more use cast for CRUD API|
+|01 Dec (Thu) |Passport|
+|03 Dec (Sat) |React + API, Deploy (not sure is it still heroku)|
+|5 Dec (Mon) |Start Project (total 3 weeks)|
 
 ## Lesson (26 Nov 2022)
 
