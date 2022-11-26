@@ -40,7 +40,8 @@ By the end of this lesson, we would have these APIs:
 |2|/comedians|GET|List all comedians|
 |3|/shows|POST|Create a document `show` with an object in request body|
 |4|/shows|GET|List all shows|
-|5|/shows|PUT|Modify a document `show`. Can be used to add `comedian(s)` as `performers` in a show.|
+|5|/shows/:id|PUT|Modify a document `show`. Can be used to add `comedian(s)` as `performers` in a show.|
+|6|/shows/:id|DELETE|Delete a document `show`. 
 
 Show Collection:
 |Field|Type|
