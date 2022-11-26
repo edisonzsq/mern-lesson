@@ -82,7 +82,7 @@ Sample data of `Show` model:
 Refer to the `Quick Start` for seeding commands.
 
 Agenda:
-1. Two additional collections: `Rates` and `PayRoll`.
+1. Two additional collections: `Rates` and `PayRoll`. (Created for you)
 1. Use of Express Router
 1. Use of additional service tier
 
@@ -93,7 +93,7 @@ Endpoints:
 |#|Url|Verb|Remarks|
 |-|-|-|-|
 |1|/assign/:showId/:comedianId|POST|It should assign a comedian to a show. Check for duplicate. Check if comedian exist.|
-|2|/assign/:showId/:comedianId|PUT|It should remove the specified comedian out of the show. Check if comedian does exist as performers.|
+|2|/assign/:showId/:comedianId|DELETE|It should remove the specified comedian out of the show. Check if comedian does exist as performers.|
 |3|/producepayroll/:month/:year|POST|Create document(s) in the `PayRoll` collection. Check against `Rates` to determine how much salary a comedian is going to get for the month/year. Filter `Show` collection based on the `start` date. This endpoint is assumed to be called on the first day of the month.|
 
 Consider returning these statuses:
