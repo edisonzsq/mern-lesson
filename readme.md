@@ -7,14 +7,18 @@ In your mongosh, run these commands:
 
 ```sh
 use learn # the database
-db.createCollection("comedians") # the collection
-db.createCollection("shows") # the collection
+db.createCollection("comedians") # the collections
+db.createCollection("shows") 
+db.createCollection("rates")
+db.createCollection("payrolls")
 ```
 
 ## Quick Start
 
 ```sh
 npm i
+npm run clear # clear database (use when needed)
+npm run seed # seed data (Comedian, Show, Rates)
 npm start
 ```
 
@@ -74,6 +78,8 @@ Sample data of `Show` model:
 [Link](https://mongoosejs.com/docs/schematypes.html) to Mongoose Schema Field Type
 
 ## Lesson (Tue, 29 Nov 2022)
+
+Refer to the `Quick Start` for seeding commands.
 
 Agenda:
 1. Two additional collections: `Rates` and `PayRoll`.
