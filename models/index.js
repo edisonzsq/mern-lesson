@@ -1,6 +1,7 @@
 // Import dependencies
 const mongoose = require("mongoose");
 const Comedian = require("./comedian.js");
+const Show = require("./show.js");
 
 // Config
 const mongoURI = "mongodb://localhost:27017/learn";
@@ -12,10 +13,6 @@ mongoose.connect(mongoURI, ()=>{
     
 });
 
-(async()=>{
-    await Comedian.deleteMany({}); // Clear db.comedians collection (temp behaviour)
-})()
-
 // Helpful events
 db.on("error", (err) => console.log(err.message + " is Mongod not running?"));
 db.on("connected", () => console.log("mongo connected: ", mongoURI));
@@ -23,5 +20,5 @@ db.on("disconnected", () => console.log("mongo disconnected"));
 
 // Export models
 module.exports = {
-    Comedian
+    Comedian, Show
 }

@@ -8,6 +8,7 @@ In your mongosh, run these commands:
 ```sh
 use learn # the database
 db.createCollection("comedians") # the collection
+db.createCollection("shows") # the collection
 ```
 
 ## Quick Start
