@@ -1,7 +1,0 @@
-
-- 90 MINS: Homework and Q&A
-- 30 MINS: Go through Homework
-- 30 MINS: Edison share real life project 
-    - React
-    - Node backend
-- 30 MINS: Q&A

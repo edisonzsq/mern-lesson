@@ -94,7 +94,7 @@ Endpoints:
 |-|-|-|-|
 |1|/assign/:showId/:comedianId|POST|It should assign a comedian to a show. Check for duplicate. Check if comedian exist.|
 |2|/assign/:showId/:comedianId|PUT|It should remove the specified comedian out of the show. Check if comedian does exist as performers.|
-|3|/producepayroll/:month/:year|POST|Create document(s) in the `PayRoll` collection. Check against `Rates` to determine how much salary a comedian is going to get for the month/year. Filter `Show` collection based on the `start` date. This endpoint is assumed to be called on the first day of the month.|
+|3|/generatepayroll/:month/:year|POST|Create document(s) in the `PayRoll` collection. Check against `Rates` to determine how much salary a comedian is going to get for the month/year. Filter `Show` collection based on the `start` date. This endpoint is assumed to be called on the first day of the month.|
 
 Consider returning these statuses:
 
