@@ -4,6 +4,7 @@ const Comedian = require("./comedian.js");
 const Show = require("./show.js");
 const PayRoll = require("./payroll");
 const Rates = require("./rates");
+const Account = require("./accounts")
 
 // Config
 const mongoURI = "mongodb://localhost:27017/learn";
@@ -22,5 +23,5 @@ db.on("disconnected", () => console.log("mongo disconnected"));
 
 // Export models
 module.exports = {
-    Comedian, Show, PayRoll, Rates
+    Comedian, Show, PayRoll, Rates, Account
 }

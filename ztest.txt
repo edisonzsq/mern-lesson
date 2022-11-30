@@ -1,0 +1,77 @@
+1. Observe the code architecture
+    - because a feature development require you to code 
+    in middleware, router, controller, service and model (helper functions)
+
+2. What is the success criteria of this feature?
+
+What is User Story:
+
+As a <actor>, I am able to <function> so that <business benefits>.
+As a admin, I am able to upload new comedians in excel format, 
+    so that I do not have to manually create comedians for 100 records.
+
+    Success: Multiple comedians created on excel upload
+
+    Alternate:
+        - When user is not admin, middleware should stop the request.
+        - No duplicate comedians by checking unique key of the table/collection.
+        - When excel data is not the right format, throw error.
+        - File uploaded is not a legit excel format.
+
+
+
+
+
+Authentication = login = identify who is the user
+
+Authorization = permission = whether a user has permission to perform something
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+npm i passport passport-local
+
+
+
+
+
+
+
+
+
+
+1. Hashing - one way
+
+2. Encryption / Decryption - two way (hide message to retrieve later)
+
+3. Encoding / Decoding - change language/format
+
+4. Cryptographical Randomness
+
+
+npm i bcrypt
+
+
+
+
+
+applejuice
+
+Password123
+
+Password123applejuice <- apply hash 

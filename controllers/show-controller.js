@@ -57,6 +57,10 @@ const findOne = async (req, res) => {
     }
 }
 
+
+
+
+
 const assign = async (req, res) => {
 
     console.log("run assign func");
@@ -81,7 +85,7 @@ const assign = async (req, res) => {
         
         // Assign comedian to show
         show.performers.push(comedianId); // success flow
-        show.save();
+        await show.save();
 
         res.sendStatus(httpStatus.OK);
     }catch(e){
@@ -90,6 +94,11 @@ const assign = async (req, res) => {
     }
     
 }
+
+
+
+
+
 
 const unassign = async (req, res) => {
     console.log("run unassign func");
