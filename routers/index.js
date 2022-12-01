@@ -1,7 +1,7 @@
 /*
     Routers are responsible to document APIs
 */
-
+const path = require("path");
 const express = require("express");
 const app = express();
 const {create, findAll, findOne, updateOne, deleteOne} = require("../controllers/comedian-controller");
@@ -22,6 +22,8 @@ app.get("/shows", findAllShow);
 
 app.put("/shows/:id", updateOneShow);
 app.delete("/shows/:id", deleteOneShow);
+
+app.use(express.static("public"))
 
 
 // Start server
