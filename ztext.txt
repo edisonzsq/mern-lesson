@@ -1,3 +1,25 @@
 1. Demo for Twitter Login
 2. Talk more about how real life production and how unit 3 fits in
 3. Deployment on cyclic.sh
+
+
+
+
+
+
+
+
+
+
+
+
+1. Go do a different directory (not within your backend folder)
+2. Create a CRA using "npx create-react-app test-app"
+
+cd test-app
+npm i
+npm run build
+
+Those who are done copying react build folder content to public folder,
+run "npm run dev" and hit http://localhost:3000 on browser to see
+if the react homepage appears.

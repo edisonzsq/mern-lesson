@@ -23,7 +23,7 @@ app.get("/shows", findAllShow);
 app.put("/shows/:id", updateOneShow);
 app.delete("/shows/:id", deleteOneShow);
 
-app.use(express.static("public"))
+app.use(express.static("public")) // ADD THIS & create a folder "public"
 
 
 // Start server
