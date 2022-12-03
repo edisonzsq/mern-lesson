@@ -6,7 +6,8 @@ const PayRoll = require("./payroll");
 const Rates = require("./rates");
 
 // Config
-const mongoURI = "mongodb://localhost:27017/learn";
+// const mongoURI = "mongodb://localhost:27017/learn";
+const mongoURI = process.env.MONGO_URL;
 const db = mongoose.connection;
 
 // Connect

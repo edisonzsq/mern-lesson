@@ -1,25 +1,7 @@
-1. Demo for Twitter Login
-2. Talk more about how real life production and how unit 3 fits in
-3. Deployment on cyclic.sh
+1. Add MONGO_URL in .env file
 
+2. Install dotenv with `npm i dotenv`
 
+3. Add `require("dotenv").config()` at app.Jb6DC65axUL9fzn2Gztnb6PWJ7cG5efF3w51yFCKlRphBcoSSu
 
-
-
-
-
-
-
-
-
-
-1. Go do a different directory (not within your backend folder)
-2. Create a CRA using "npx create-react-app test-app"
-
-cd test-app
-npm i
-npm run build
-
-Those who are done copying react build folder content to public folder,
-run "npm run dev" and hit http://localhost:3000 on browser to see
-if the react homepage appears.
+4. Update models/index.js mongo url to `process.env.MONGO_URL`
